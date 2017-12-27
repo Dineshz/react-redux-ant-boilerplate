@@ -1,0 +1,273 @@
+.ant-btn {
+  @include border($true-blue);
+  border-radius: 2px;
+  color: $true-blue;
+  height: inherit;
+  padding: 10px 20px;
+  text-align: center;
+
+  &:hover {
+    @include border($true-blue);
+    color: $true-blue;
+  }
+
+  &:focus {
+    @include border($true-blue);
+    color: $true-blue;
+  }
+
+  &.ant-btn-circle.ant-btn-icon-only {
+    border-radius: 50%;
+    font-size: 20px;
+    height: 35px;
+    padding: 0;
+    width: 35px;
+  }
+}
+
+.ant-btn-primary {
+  background-color: $true-blue;
+  color: $white;
+
+  &:hover {
+    background-color: $true-blue;
+    color: $white;
+  }
+
+  &:focus {
+    background-color: $true-blue;
+    color: $white;
+  }
+}
+
+.ant-btn-danger {
+  @include border($sunset-orange);
+  background-color: transparent;
+  color: $sunset-orange;
+
+  &:hover {
+    @include border($sunset-orange);
+    background-color: transparent;
+    color: $sunset-orange;
+  }
+
+  &:focus {
+    @include border($sunset-orange);
+    background-color: transparent;
+    color: $sunset-orange;
+  }
+}
+
+.ant-upload-drag-container {
+  padding: 30px;
+
+  &.success {
+    background-color: $success-background;
+  }
+}
+
+.ant-input-number.ant-input-number-lg,
+.ant-input-lg {
+  border-radius: 2px;
+  height: $input-lg-height;
+  margin-top: 5px;
+
+  &:focus {
+    border-color: $true-blue;
+  }
+
+  &:hover {
+    border-color: $true-blue;
+  }
+}
+
+.ant-select-lg {
+  .ant-select-selection {
+    margin-top: 5px;
+
+    &.ant-select-selection--single {
+      border-radius: 2px;
+      height: $input-lg-height;
+
+      &:hover {
+        border-color: $true-blue;
+      }
+
+      &:focus {
+        border-color: $true-blue;
+      }
+
+      .ant-select-selection__rendered {
+        align-items: center;
+        display: flex;
+        height: inherit;
+      }
+    }
+
+    &.ant-select-selection--multiple {
+      border-radius: 2px;
+      min-height: $input-lg-height;
+
+      &:hover {
+        border-color: $true-blue;
+      }
+
+      &:focus {
+        border-color: $true-blue;
+      }
+
+      .ant-select-selection__choice {
+        @include border($solitude-blue);
+        background-color: $whisper-blue;
+        border-radius: 2px;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .ant-select-selection__rendered {
+        align-items: center;
+        display: flex;
+        min-height: $input-lg-height;
+
+        ul > li {
+          margin-bottom: 5px;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .ant-select-arrow {
+      top: 46%;
+    }
+  }
+}
+
+.ant-radio,
+.ant-radio-focused,
+.ant-radio-wrapper .ant-radio,
+.ant-radio-wrapper:hover .ant-radio, {
+
+  &:hover {
+    border-color: $true-blue;
+
+    .ant-radio-inner {
+      border-color: $true-blue;
+
+      &::after {
+        background-color: $true-blue;
+      }
+    }
+  }
+
+  .ant-radio-inner {
+    border-color: $true-blue;
+
+    &::after {
+      background-color: $true-blue;
+    }
+  }
+}
+
+.ant-input-number.ant-input-number-lg {
+  height: $input-lg-height;
+  width: 100%;
+
+  &:hover {
+    @include border($true-blue);
+  }
+
+  &:focus {
+    @include border($true-blue);
+  }
+
+  .ant-input-number-input-wrap {
+    align-items: center;
+    display: flex;
+    height: inherit;
+  }
+}
+
+.ant-popover-message {
+  .anticon.anticon-exclamation-circle {
+    display: none;
+  }
+}
+
+
+.ant-table-thead > tr.ant-table-row-hover > td,
+.ant-table-tbody > tr.ant-table-row-hover > td,
+.ant-table-thead > tr:hover > td,
+.ant-table-tbody > tr:hover > td {
+  background: $whisper-blue;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid $solitude-blue;
+}
+
+.ant-table-pagination {
+  float: none;
+  text-align: center;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent;
+  color: $black-pearl;
+
+  &:hover {
+    background-color: $whisper-blue;
+    color: $true-blue;
+  }
+}
+
+.ant-menu-item {
+  border-bottom: 1px solid $solitude-blue;
+
+  &:hover {
+    background-color: $whisper-blue;
+    color: $true-blue;
+  }
+}
+
+.ant-menu-inline,
+.ant-menu-vertical {
+  border-right: 0;
+
+  .ant-menu-item {
+    &::after {
+      border-right: 4px solid $true-blue;
+    }
+  }
+}
+
+.ant-menu-item-group-title {
+  color: $blue-bayoux;
+}
+
+.ant-popover-buttons {
+  button {
+    font-size: 15px;
+    padding: 5px 15px;
+  }
+}
+
+.ant-confirm-info {
+  .ant-confirm-btns {
+    margin-top: 20px;
+  }
+}
+
+.ant-input {
+  border-radius: 2px;
+
+  &:focus,
+  &:hover {
+    border-color: $true-blue;
+  }
+}
+
+.ant-menu.ant-menu-inline > .ant-menu-item {
+  margin-bottom: 0;
+  margin-top: 0;
+}

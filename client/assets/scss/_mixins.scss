@@ -1,0 +1,20 @@
+@mixin border($color) {
+  border: 1px solid $color;
+  border-radius: 2px;
+}
+
+@mixin flex-horiz-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex-vertical-center {
+  align-items: center;
+  display: flex;
+}
+
+@mixin flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

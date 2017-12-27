@@ -1,0 +1,166 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $black-pearl;
+  font-family: $default-font;
+}
+
+a {
+  color: $true-blue;
+
+  &:hover {
+    color: $true-blue;
+  }
+}
+
+.noselect {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.no-select {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+  user-select: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.scrollable {
+  overflow-y: auto;
+}
+
+.full-w {
+  width: 100%;
+}
+
+.flex-horiz-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-vertical-center {
+  align-items: center;
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.success-icon {
+  color: $malachite-green !important;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.critical {
+  background-color: $critical-background;
+}
+
+.load-spinner {
+  align-items: center;
+  color: $blue-bayoux;
+  display: flex;
+  font-size: 70px;
+  height: calc(100vh - #{$header-height});
+  justify-content: center;
+  width: 100%;
+}
+
+.no-data {
+  color: $blue-bayoux;
+}
+
+.empty-component {
+  color: $bg-gray;
+  font-size: 50px;
+  margin-top: 50px;
+
+  .empty-icon {
+    font-size: 80px;
+  }
+
+  .text-row {
+    padding: 0 100px;
+    text-align: center;
+  }
+}
+
+.popover-dropdown {
+  .popover-dropdown-item {
+    @include flex-vertical-center;
+    color: $blue-bayoux;
+    cursor: pointer;
+    min-height: 30px;
+
+    &:hover {
+      // background-color: $whisper-blue;
+      color: $true-blue;
+    }
+  }
+}
+
+.green {
+  color: $malachite-green;
+}
+
+.red {
+  color: $sunset-orange;
+}
+
+.blue {
+  color: $true-blue;
+}
+
+.blue-bayoux {
+  color: $blue-bayoux;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.role-icon {
+  color: $true-blue;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.Select {
+  .Select-menu-outer {
+    display: block;
+    left: 0;
+    position: relative;
+    top: 100%;
+    z-index: 90000;
+  }
+}

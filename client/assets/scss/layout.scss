@@ -1,0 +1,122 @@
+.page-title {
+  margin-top: 20px;
+}
+
+.logo {
+  float: left;
+  height: 31px;
+
+  .image {
+    width: 120px;
+  }
+}
+
+.navbar {
+  background-color: $white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.layout.ant-layout {
+  background: $white;
+
+  .ant-layout-header {
+    background: $white;
+    border-bottom: 1px solid $solitude-blue;
+    height: $header-height;
+    padding: 0 20px;
+  }
+
+  .ant-menu-horizontal {
+    border-bottom: 0;
+  }
+}
+
+.ant-table-thead {
+  text-align: left;
+}
+
+.content {
+  margin-top: $header-height;
+
+  .area {
+    min-height: calc(100vh - 100px);
+  }
+}
+
+.search-box {
+  margin-bottom: 15px;
+  padding: 8px 8px 8px 0;
+
+  input {
+    margin-right: 8px;
+    width: 200px;
+ }
+}
+
+.center {
+  text-align: center;
+}
+
+.back-button {
+  margin-top: 10px;
+}
+
+.m-t-0 {
+  margin-top: 0;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-l-30 {
+  margin-left: 30px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.flex-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 15px;
+}
+
+.navbar-avatar {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.role {
+  color: $blue-bayoux;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.header-menu {
+  line-height: $header-height - 2px;
+}
